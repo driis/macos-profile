@@ -4,6 +4,9 @@ source ~/scripts/git-prompt.sh
 
 # Global Alias
 alias n='Open -a "Sublime Text 2"'
+alias ls='ls -G'
+alias lsl='ls -Gl'
+alias ..='cd ..'
 
 # Prompt
 export PS1='\w$(__git_ps1 " (%s)")> '
