@@ -1,4 +1,4 @@
-export PATH=${PATH}:~/Code/SDK/android-sdk-macosx/tools:~/Code/SDK/android-sdk-macosx/platform-tools
+export PATH=/usr/local/Cellar/git/1.7.11.2/bin:${PATH}:~/Code/SDK/android-sdk-macosx/tools:~/Code/SDK/android-sdk-macosx/platform-tools
 source ~/scripts/git-completion.bash
 source ~/scripts/git-prompt.sh
 
@@ -17,6 +17,6 @@ function gs()
 
 function ga()
 {
-	git add . -u
+	git add . 
 	gs	
 }
