@@ -1,0 +1,17 @@
+[user]
+	name = Dennis Riis
+	email = driis@ebay.com
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/driis/.gitignore_global
+[difftool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true
+[mergetool]
+	keepBackup = false
+[push]
+	default = upstream
