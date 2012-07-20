@@ -7,7 +7,7 @@ alias n='Open -a "Sublime Text 2"'
 alias ls='ls -G'
 alias lsl='ls -Gl'
 alias ..='cd ..'
-
+alias simulator="open /Applications/XCode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
 # Prompt
 export PS1='\w$(__git_ps1 " (%s)")> '
 export GIT_PS1_SHOWDIRTYSTATE=true
