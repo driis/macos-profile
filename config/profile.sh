@@ -8,6 +8,7 @@ alias n='atom'
 alias ls='ls -G'
 alias lsl='ls -Gl'
 alias ..='cd ..'
+alias scriptcs="mono ~/dev/scriptcs/src/ScriptCs/bin/Release/ScriptCs.exe"
 alias simulator="open /Applications/XCode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
 # Prompt
 export PS1='\w$(__git_ps1 " (%s)")> '
